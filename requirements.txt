@@ -1,0 +1,35 @@
+# API
+fastapi
+uvicorn
+
+# RAG / LangChain
+langchain
+langchain-community
+langchain-text-splitters
+langchain-groq
+
+# Vector Database
+chromadb
+
+# Embeddings / NLP
+sentence-transformers
+transformers
+torch
+
+# PDF Processing
+pymupdf
+pypdf
+
+# Numerical / ML utilities
+numpy
+scikit-learn
+
+# LLM API
+groq
+
+# Environment variables
+python-dotenv
+
+# Frontend (only keep this here if the SAME container runs Streamlit)
+streamlit
+

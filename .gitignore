@@ -1,0 +1,26 @@
+# Environment & Secret API Keys (CRITICAL: Do not upload .env)
+.env
+
+# Python Cache & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary data files
+embeddings.npy
+*.tmp
+.DS_Store
+.idea/
+.vscode/
+
+# uv
+uv.lock
+
+# vector database
+vector_store/
+
