@@ -66,7 +66,6 @@ HEALTH_ENDPOINT = f"{API_URL}/health"
 STATS_ENDPOINT = f"{API_URL}/vectorstore/stats"
 
 
-#@st.cache_resource
 def check_api_health():
     """Check if API is running"""
     try:
@@ -110,7 +109,7 @@ def query_rag(query: str, top_k: int, score_threshold: float) -> Dict[str, Any]:
 
 # Main UI
 st.title("Vyom AI")
-st.markdown("*Retrieval-Augmented Generation powered by LLM*")
+st.markdown("*AI Assistant for Spac*")
 
 # Check API status
 if not check_api_health():

@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: rag-backend:v2
+    image: ghcr.io/sathvik2210/isro-rag-backend:latest
     container_name: rag-backend
 
     expose:
@@ -24,7 +24,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    image: rag-frontend:v2
+    image:  ghcr.io/sathvik2210/isro-rag-frontend:latest
     container_name: rag-frontend
 
     ports:
