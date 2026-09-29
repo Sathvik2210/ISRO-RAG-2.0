@@ -109,7 +109,7 @@ def query_rag(query: str, top_k: int, score_threshold: float) -> Dict[str, Any]:
 
 # Main UI
 st.title("Vyom AI")
-st.markdown("*AI Assistant for Spac*")
+st.markdown("*AI Assistant for Space Scientists*")
 
 # Check API status
 if not check_api_health():
