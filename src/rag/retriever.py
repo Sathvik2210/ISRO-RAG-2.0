@@ -52,7 +52,7 @@ class RAGRetriever:
                 ids = results['ids'][0]
                 
                 for i, (doc_id, document, metadata, distance) in enumerate(zip(ids, documents, metadatas, distances)):
-                    # Convert distance to similarity score (ChromaDB uses cosine distance)
+                    # Convert distance to similarity score
                     similarity_score = 1 - distance
                     
                     if similarity_score >= score_threshold:

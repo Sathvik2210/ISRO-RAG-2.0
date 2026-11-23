@@ -11,7 +11,7 @@ from typing import List, Dict, Any
 
 # Page configuration
 st.set_page_config(
-    page_title="Vyom AI",
+    page_title="Vyom AI - By Matrx",
     page_icon="🚀",
     layout="wide",
     initial_sidebar_state="expanded"
